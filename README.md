@@ -1,11 +1,22 @@
 # AI Product Analytics Copilot
 
-An AI-powered analytics tool that surfaces funnel drop-offs, revenue drivers, and user behavior patterns from simulated product and payment event data.
+An AI-powered tool that helps product and operations teams identify where users drop off, why revenue underperforms, and what experiments to run next without needing a data analyst.
 
 ## Overview
 This project uses the UCI Online Retail dataset as a real-world transaction base and transforms it into simulated product funnel events such as visits, checkouts, payments, and failed payments. It then applies funnel analysis, segment analysis, and LLM-generated product insights to help identify conversion friction and recommend experiments.
 
-## Features
+## The Problem
+Product and ops teams often sit on top of rich transaction data but lack the bandwidth or technical resources to consistently surface actionable insights. Dashboards show what happened, but rarely explain why — and recommending next steps requires even more manual work.
+
+## What I Built
+An end-to-end analytics tool that takes raw transaction data, simulates product funnel events (visits, checkouts, payments, failures), and surfaces conversion friction and revenue drivers through an interactive dashboard powered by LLM-generated root-cause analysis and A/B test recommendations.
+Instead of a static report, users can ask natural language questions and receive AI-generated hypotheses and experiment suggestions grounded in the actual data.
+
+## AI Tools Used
+OpenAI API (GPT-4) — generates root-cause insights and experiment recommendations from funnel metrics
+Prompt engineering — structured prompts guide the model to reason about segment-level drop-offs and prioritize actionable next steps
+
+## Key Features
 - Funnel performance tracking
 - Revenue trend visualization
 - Segment-level conversion analysis
