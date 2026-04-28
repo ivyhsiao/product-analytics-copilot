@@ -13,8 +13,8 @@ An end-to-end analytics tool that takes raw transaction data, simulates product 
 Instead of a static report, users can ask natural language questions and receive AI-generated hypotheses and experiment suggestions grounded in the actual data.
 
 ## AI Tools Used
-OpenAI API (GPT-4) — generates root-cause insights and experiment recommendations from funnel metrics
-Prompt engineering — structured prompts guide the model to reason about segment-level drop-offs and prioritize actionable next steps
+- OpenAI API (GPT-4): generates root-cause insights and experiment recommendations from funnel metrics
+- Prompt engineering: structured prompts guide the model to reason about segment-level drop-offs and prioritize actionable next steps
 
 ## Key Features
 - Funnel performance tracking
