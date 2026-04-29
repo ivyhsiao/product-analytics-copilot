@@ -6,7 +6,7 @@ An AI-powered tool that helps product and operations teams identify where users 
 This project uses the UCI Online Retail dataset as a real-world transaction base and transforms it into simulated product funnel events such as visits, checkouts, payments, and failed payments. It then applies funnel analysis, segment analysis, and LLM-generated product insights to help identify conversion friction and recommend experiments.
 
 ## The Problem
-Product and ops teams often sit on top of rich transaction data but lack the bandwidth or technical resources to consistently surface actionable insights. Dashboards show what happened, but rarely explain why — and recommending next steps requires even more manual work.
+Product and ops teams often sit on top of rich transaction data but lack the bandwidth or technical resources to consistently surface actionable insights. Dashboards show what happened, but recommendations for next step usually require more manual work.
 
 ## What I Built
 An end-to-end analytics tool that takes raw transaction data, simulates product funnel events (visits, checkouts, payments, failures), and surfaces conversion friction and revenue drivers through an interactive dashboard powered by LLM-generated root-cause analysis and A/B test recommendations.
